@@ -39,7 +39,7 @@ Strapi gives you many possible deployment options for your project including [St
 ```
 yarn strapi deploy
 ```
-
+creds kuldeephimachal83/KannuOO7
 ## 📚 Learn more
 
 - [Resource center](https://strapi.io/resource-center) - Strapi resource center.
