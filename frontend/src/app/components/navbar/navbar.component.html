@@ -4,10 +4,10 @@
     </div>
     <ul class="nav-links">
         <li><a href="#">Home</a></li>
-        <li><a href="#tournaments">Tournaments</a></li>
-        <li><a href="#teams">Teams</a></li>
-        <li><a href="#leaderboard">Leaderboard</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a [routerLink]="['/tournaments']" routerLinkActive="router-link-active" >Tournaments</a></li>
+        <li><a [routerLink]="['/teams']" routerLinkActive="router-link-active">Teams</a></li>
+        <li><a [routerLink]="['/leaderboard']" routerLinkActive="router-link-active">Leaderboard</a></li>
+        <li><a [routerLink]="['/contact']" routerLinkActive="router-link-active">Contact</a></li>
     </ul>
     <div class="auth-buttons">
         <a [routerLink]="['/login']" routerLinkActive="router-link-active"  class="btn-primary">Login</a>
