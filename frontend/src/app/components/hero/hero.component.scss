@@ -1,0 +1,32 @@
+/* Hero Section Styles */
+header.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/path-to-hero-image.jpg') no-repeat center center/cover;
+  }
+  
+  header.hero h1 {
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 20px;
+    animation: fadeInDown 1.5s ease-in-out;
+  }
+  
+  header.hero p {
+    font-size: 1.5rem;
+    color: #b0b0b0;
+    margin-bottom: 30px;
+    animation: fadeInUp 1.5s ease-in-out;
+  }
+  
+  .cta-buttons a {
+    margin: 0 10px;
+  }
+  
+  .cta-buttons a.btn-primary,
+  .cta-buttons a.btn-secondary {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+  
